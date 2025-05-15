@@ -1,5 +1,6 @@
 # EduConnect
 
+
 EduConnect is a smart and efficient Teacher Appointment Booking System designed to simplify and streamline communication between students and teachers. It enables students to easily book appointments with their teachers based on availability, while teachers can manage their schedules and appointments with ease. EduConnect bridges the gap in academic interactions and promotes a well-organized environment for academic support and mentorship.
 
 ---
@@ -30,9 +31,9 @@ EduConnect is a smart and efficient Teacher Appointment Booking System designed 
 
 ## Technology Stack
 
-| Frontend                | Backend            | Database  | Payment Gateway         |
-|-------------------------|--------------------|-----------|------------------------|
-| React, Redux Toolkit, CSS | Node.js, Express  | MongoDB   | Razorpay (Test Mode)    |
+| Frontend               | Backend           | Database  | Payment Gateway       |
+|------------------------|-------------------|-----------|----------------------|
+| React, Redux Toolkit, CSS | Node.js, Express | MongoDB   | Razorpay (Test Mode)  |
 
 ---
 
@@ -55,8 +56,8 @@ Copy
 Edit
 cd ../frontend
 npm install
-Set up environment variables
-Create .env files in both backend and frontend folders as below.
+Environment Variables
+Create .env files in both backend and frontend folders as shown below.
 
 Backend .env example (backend/.env)
 env
@@ -95,6 +96,7 @@ VITE_BACKEND_URL: Backend server URL
 
 REACT_APP_RAZORPAY_KEY_ID: Razorpay test key ID for payment integration
 
+Running the Project
 Run the backend server
 bash
 Copy
