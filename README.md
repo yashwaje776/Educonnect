@@ -37,76 +37,48 @@ EduConnect is a smart and efficient Teacher Appointment Booking System designed 
 
 ---
 
-## Installation and Setup
+Installation and Setup
 
-### Clone the repository
+Clone the repository
 
-```bash
 git clone https://github.com/yashwaje776/Educonnect.git
 cd Educonnect
 Install backend dependencies
-bash
-Copy
-Edit
 cd backend
 npm install
 Install frontend dependencies
-bash
-Copy
-Edit
 cd ../frontend
 npm install
+
 Environment Variables
-Create .env files in both the backend and frontend folders as shown below.
+Create .env files in both backend and frontend folders as shown below.
 
 Backend .env example (backend/.env)
-env
-Copy
-Edit
+
 PORT=3000
-MONGODB_URL="your_mongodb_connection_string"
-CLOUDNAME="your_cloudinary_cloud_name"
-CLOUD_API_KEY="your_cloudinary_api_key"
-SECRET_KEY="your_cloudinary_api_secret"
-ADMIN_EMAIL="admin_email@example.com"
-ADMIN_PASSWORD="your_admin_password"
-JWT_SECRET="your_jwt_secret_key"
-
-RAZORPAY_KEY_ID="your_razorpay_test_key_id"
-RAZORPAY_KEY_SECRET="your_razorpay_test_key_secret"
-PORT: Port for backend server (default 3000)
-
-MONGODB_URL: MongoDB connection string
-
-CLOUDNAME, CLOUD_API_KEY, SECRET_KEY: Cloudinary credentials for image uploads
-
-ADMIN_EMAIL, ADMIN_PASSWORD: Admin user credentials
-
-JWT_SECRET: JWT authentication secret
-
-RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET: Razorpay API keys (test mode)
+MONGODB_URL="mongodb+srv://yashwaje:yashwaje@cluster0.fg9p8am.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+CLOUDNAME="di9o2mqwx"
+CLOUD_API_KEY="147695286815586"
+SECRET_KEY="jK9ymIkBjpfdE7bfk8xdptKToP8"
+ADMIN_EMAIL="abc@gmail.com"
+ADMIN_PASSWORD="1234567890"
+JWT_SECRET="123456789"
+RAZORPAY_KEY_ID="rzp_test_OZTmZAy2h8Wt1Y"
+RAZORPAY_KEY_SECRET="Ux292yaedaQLydd4A2M2G3qZ"
 
 Frontend .env example (frontend/.env)
-env
-Copy
-Edit
-VITE_BACKEND_URL="http://localhost:3000"
-REACT_APP_RAZORPAY_KEY_ID="your_razorpay_test_key_id"
-VITE_BACKEND_URL: Backend server URL
 
-REACT_APP_RAZORPAY_KEY_ID: Razorpay test key ID for payment integration
+VITE_BACKEND_URL="http://localhost:3000"
+REACT_APP_RAZORPAY_KEY_ID="rzp_test_OZTmZAy2h8Wt1Y"
+
 
 Running the Project
+
 Run the backend server
-bash
-Copy
-Edit
 cd backend
 npm run dev
+
 Run the frontend server
-bash
-Copy
-Edit
 cd ../frontend
 npm start
 Open your browser and visit: http://localhost:3000
@@ -121,3 +93,4 @@ Students can book appointments with teachers and view details
 Pay for appointments using Razorpay test payments
 
 View appointment history and statuses
+
