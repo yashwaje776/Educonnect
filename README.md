@@ -1,103 +1,105 @@
-# EduConnect – Teacher Appointment Booking System
+# EduConnect
+EduConnect is a smart and efficient Teacher Appointment Booking System designed to simplify and streamline communication between students and teachers. It enables students to easily book appointments with their teachers based on availability, while teachers can manage their schedules and appointments with ease. EduConnect bridges the gap in academic interactions and promotes a well-organized environment for academic support and mentorship.
 
-EduConnect is a smart and efficient Teacher Appointment Booking System designed to simplify and streamline communication between students and teachers. It enables students to easily book appointments with their teachers based on availability, while teachers can manage their schedules and appointments with ease.
+Features
+✅ User registration and login for students and teachers
+✅ Teachers can manage their availability and appointments
+✅ Students can view teacher profiles and book appointments
+✅ Appointment management: view, cancel, and mark completed
+✅ Payment integration via Razorpay in test mode (for development)
+✅ Notifications on appointment status and payment updates
+✅ Responsive UI built with React
+✅ Backend REST API with Node.js and Express
+✅ Data storage using MongoDB
 
----
+Payment Feature
+Integrated Razorpay payment gateway for secure online payments
+Currently running in Razorpay Test Mode for development and testing
+No real transactions occur in test mode; use the provided test keys
+Payment success and failure scenarios can be simulated safely
+To go live, replace the Razorpay test key with your production key
 
-## 🔧 Features to Improve
+Technology Stack
+Frontend: React, Redux Toolkit, CSS
+Backend: Node.js, Express
+Database: MongoDB
+Payment Gateway: Razorpay (Test Mode)
 
-- ✅ Teachers should be able to **accept or approve** appointments.
-- ✅ Prevent duplicate registrations with the same email.
-- ✅ Passwords must be encrypted and not shown in admin panel.
-- ✅ Add **invoicing system** for patients: track payments, amount, and date.
-- ✅ Enhance prescription section with more specific medical fields.
-- ✅ Doctors should be able to manage their **profiles**, availability, and contact info.
-
----
-
-## 🛠 Technologies Used
-
-- HTML, CSS
-- JavaScript
-- React
-- MongoDB
-- Express
-- Node.js
-
----
-
-## 📦 Installation Guide
-
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/yashwaje776/Educonnect
-Install frontend dependencies
+Installation and Setup
+Clone the repository:
 
 bash
 Copy
 Edit
-cd frontend
+git clone https://github.com/yashwaje776/Educonnect.git
+cd Educonnect
+Install backend dependencies:
+
+bash
+Copy
+Edit
+cd backend
 npm install
-Install backend dependencies
+Install frontend dependencies:
+
+bash
+Copy
+Edit
+cd ../frontend
+npm install
+Set up environment variables:
+
+Backend .env example:
+
+ini
+Copy
+Edit
+MONGODB_URI=your_mongodb_connection_string
+RAZORPAY_KEY_ID=rzp_test_xxxxxxx
+RAZORPAY_KEY_SECRET=your_razorpay_secret
+JWT_SECRET=your_jwt_secret
+Frontend .env example:
+
+ini
+Copy
+Edit
+REACT_APP_BACKEND_URL=http://localhost:5000
+REACT_APP_RAZORPAY_KEY_ID=rzp_test_xxxxxxx
+Run backend server:
 
 bash
 Copy
 Edit
 cd ../backend
-npm install
-Run the project
+npm run dev
+Run frontend server:
 
 bash
 Copy
 Edit
-npm run dev
-Open the browser at: http://localhost:3000
+cd ../frontend
+npm start
+Open your browser and go to:
 
-🖼 Screenshots
-🔹 Homepage
-From the homepage, students and teachers can toggle between login tabs.
-
-🔹 Contact Us Page
-Allows users to send feedback or queries to the academic admin team.
-
-🔹 Login
-Login is mandatory to book an appointment with a teacher.
-
-🔹 Appointment Booking
-Students can choose date/time and subject for booking a consultation.
-
-🔹 Admin Panel
-Admin can:
-
-View all appointments
-
-Approve appointments
-
-Add or delete teachers
-
-Add invoices to appointments
-
-🔹 Payment
-After appointments, users can pay online (integration like Razorpay or Khalti supported).
-
-📬 Feedback
-Feel free to open issues or pull requests if you'd like to contribute!
-
-yaml
+arduino
 Copy
 Edit
+http://localhost:3000
+Usage
+Register as a student or teacher
 
----
+Teachers can set their availability and manage appointments
 
-#### 3. **Save the file**
+Students can book appointments with teachers and view details
 
-Make sure you're in the root folder and save the `README.md`.
+Pay for appointments using Razorpay test payments
 
-#### 4. **Commit and Push**
+View appointment history and statuses
 
-Run these commands in your terminal:
+Notes
+This project is under active development
 
-```bash
-git add README.md
-git commit -m "Updated README with project details"
-git push origin main
+The payment gateway is currently in test mode. For production, update your Razorpay keys accordingly
+
+Ensure MongoDB is running and your connection string is correct
+
