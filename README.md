@@ -20,7 +20,6 @@ EduConnect is a smart and efficient Teacher Appointment Booking System designed 
 - HTML, CSS
 - JavaScript
 - React
-- Redux Toolkit
 - MongoDB
 - Express
 - Node.js
