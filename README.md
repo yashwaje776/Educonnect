@@ -35,26 +35,35 @@ EduConnect is a smart and efficient Teacher Appointment Booking System designed 
 |------------------------|-------------------|-----------|----------------------|
 | React, Tailwind | Node.js, Express | MongoDB   | Razorpay (Test Mode)  |
 
----
-Installing
-Installing - easy ::
-Download the repository
-git clone https://github.com/margiki/NHS-nodejs-webapp
-Open the Terminal (Linux & MacOS) or PowerShell (Windows) and change directory to the project folder.
-Go to frontend folder and type " npm install " in the terminal and press Enter.All the dependencies of frontend would be installed.
+---## Installing
+
+# Installing - easy ::
+1.	Download the repository
+```
+git clone https://github.com/yashwaje776/Educonnect
+```
+2.	Open the Terminal (Linux & MacOS) or PowerShell (Windows) and change directory to the project folder.
+3. Go to frontend folder and type " npm install " in the terminal and press Enter.All the dependencies of frontend would be installed.
+```bash 
 cd frontend 
 npm install 
-Go to backed folder and type " npm install " in the terminal and press Enter.All the dependencies of backed would be installed.
+```
+4. Go to backed  folder and type " npm install " in the terminal and press Enter.All the dependencies of backed  would be installed.
+```bash 
 cd backend  
 npm install 
-Go back to the Terminal (PowerShell) and be sure that you are pointing inside the project folder. To open the application, type ‘npm run dev ’ and press Enter.
+```
+5. Go to admin folder and type " npm install " in the terminal and press Enter.All the dependencies of admin would be installed.
+```bash 
+cd admin 
+npm install 
+```
 
-The application should be live on the local port 3000.
+5.	Go back to the Terminal (PowerShell) and be sure that you are pointing inside the project folder. To open the application, type ‘npm run dev ’ and press Enter.
+6.	The application should be live on the local port 3000.  
+7.	Type http://localhost:3000/ into a browser.
 
-Type http://localhost:3000/ into a browser.
-
-Now you should be inside the application
-
+8.	Now you should be inside the application
 
 Usage
 Register as a student or teacher
