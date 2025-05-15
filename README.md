@@ -57,7 +57,7 @@ Edit
 cd ../frontend
 npm install
 Environment Variables
-Create .env files in both backend and frontend folders as shown below.
+Create .env files in both the backend and frontend folders as shown below.
 
 Backend .env example (backend/.env)
 env
