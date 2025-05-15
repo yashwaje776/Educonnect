@@ -56,19 +56,28 @@ Create .env files in both backend and frontend folders as shown below.
 Backend .env example (backend/.env)
 
 PORT=3000
-MONGODB_URL="mongodb+srv://yashwaje:yashwaje@cluster0.fg9p8am.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGODB_URL="mongodb+srv://yashwaje:yashwaje@cluster0.fg9p8am.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
+
 CLOUDNAME="di9o2mqwx"
+
 CLOUD_API_KEY="147695286815586"
+
 SECRET_KEY="jK9ymIkBjpfdE7bfk8xdptKToP8"
+
 ADMIN_EMAIL="abc@gmail.com"
+
 ADMIN_PASSWORD="1234567890"
+
 JWT_SECRET="123456789"
+
 RAZORPAY_KEY_ID="rzp_test_OZTmZAy2h8Wt1Y"
+
 RAZORPAY_KEY_SECRET="Ux292yaedaQLydd4A2M2G3qZ"
 
 Frontend .env example (frontend/.env)
 
 VITE_BACKEND_URL="http://localhost:3000"
+
 REACT_APP_RAZORPAY_KEY_ID="rzp_test_OZTmZAy2h8Wt1Y"
 
 
@@ -82,6 +91,7 @@ Run the frontend server
 cd ../frontend
 npm start
 Open your browser and visit: http://localhost:3000
+
 
 Usage
 Register as a student or teacher
