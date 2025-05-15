@@ -1,0 +1,4 @@
+ode_modules/
+.env
+dist/
+build/
