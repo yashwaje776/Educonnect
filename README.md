@@ -33,64 +33,27 @@ EduConnect is a smart and efficient Teacher Appointment Booking System designed 
 
 | Frontend               | Backend           | Database  | Payment Gateway       |
 |------------------------|-------------------|-----------|----------------------|
-| React, Redux Toolkit, CSS | Node.js, Express | MongoDB   | Razorpay (Test Mode)  |
+| React, Tailwind | Node.js, Express | MongoDB   | Razorpay (Test Mode)  |
 
 ---
+Installing
+Installing - easy ::
+Download the repository
+git clone https://github.com/margiki/NHS-nodejs-webapp
+Open the Terminal (Linux & MacOS) or PowerShell (Windows) and change directory to the project folder.
+Go to frontend folder and type " npm install " in the terminal and press Enter.All the dependencies of frontend would be installed.
+cd frontend 
+npm install 
+Go to backed folder and type " npm install " in the terminal and press Enter.All the dependencies of backed would be installed.
+cd backend  
+npm install 
+Go back to the Terminal (PowerShell) and be sure that you are pointing inside the project folder. To open the application, type ‘npm run dev ’ and press Enter.
 
-Installation and Setup
+The application should be live on the local port 3000.
 
-Clone the repository
+Type http://localhost:3000/ into a browser.
 
-git clone https://github.com/yashwaje776/Educonnect.git
-cd Educonnect
-Install backend dependencies
-cd backend
-npm install
-Install frontend dependencies
-cd ../frontend
-npm install
-
-Environment Variables
-Create .env files in both backend and frontend folders as shown below.
-
-Backend .env example (backend/.env)
-
-PORT=3000
-MONGODB_URL="mongodb+srv://yashwaje:yashwaje@cluster0.fg9p8am.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" 
-
-CLOUDNAME="di9o2mqwx"
-
-CLOUD_API_KEY="147695286815586"
-
-SECRET_KEY="jK9ymIkBjpfdE7bfk8xdptKToP8"
-
-ADMIN_EMAIL="abc@gmail.com"
-
-ADMIN_PASSWORD="1234567890"
-
-JWT_SECRET="123456789"
-
-RAZORPAY_KEY_ID="rzp_test_OZTmZAy2h8Wt1Y"
-
-RAZORPAY_KEY_SECRET="Ux292yaedaQLydd4A2M2G3qZ"
-
-Frontend .env example (frontend/.env)
-
-VITE_BACKEND_URL="http://localhost:3000"
-
-REACT_APP_RAZORPAY_KEY_ID="rzp_test_OZTmZAy2h8Wt1Y"
-
-
-Running the Project
-
-Run the backend server
-cd backend
-npm run dev
-
-Run the frontend server
-cd ../frontend
-npm start
-Open your browser and visit: http://localhost:3000
+Now you should be inside the application
 
 
 Usage
